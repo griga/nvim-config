@@ -1,3 +1,3 @@
 require("cybe.remap")
+require("cybe.set")
 
-print("hello from cybe")

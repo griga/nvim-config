@@ -20,6 +20,12 @@ return require('packer').startup(function(use)
 	use('theprimeagen/harpoon')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
+	use {
+		'numtostr/comment.nvim',
+		config = function()
+			require('comment').setup()
+		end
+	}
 	
 	use {
 		'VonHeikemen/lsp-zero.nvim',

@@ -1,2 +1,1 @@
 require("cybe")
-print("hello")
