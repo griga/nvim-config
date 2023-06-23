@@ -1,0 +1,2 @@
+require("cybe")
+print("hello")
